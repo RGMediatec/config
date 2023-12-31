@@ -9,7 +9,7 @@ cd ~
 #	install Tool-Set
 ####################
 
-apt update && apt install curl htop bpytop bmon screen tmux nethogs nload iftop nano neofetch ncdu nmon git unzip distro-info net-tools sysbench lshw smartmontools ethtool pv sysstat iotop sipcalc mc termshark
+apt update && apt install curl htop bpytop bmon screen tmux nethogs nload iftop nano neofetch ncdu nmon git unzip distro-info net-tools sysbench lshw smartmontools ethtool pv sysstat iotop sipcalc # mc termshark
 
 # configure tmux
 
@@ -42,3 +42,8 @@ systemctl restart sshd.service
 
  wget -O ~/.bash_aliases https://raw.githubusercontent.com/RGMediatec/config/main/cfg/.bash_aliases
  source ~/.bash_aliases
+
+
+
+
+ echo "initial config done. please reboot for safety :)"
