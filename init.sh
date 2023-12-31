@@ -6,7 +6,7 @@
 cd ~
 
 ####################
-#	install Tool-Set
+# install Tool-Set
 ####################
 
 apt update && apt install curl htop bpytop bmon screen tmux nethogs nload iftop nano neofetch ncdu nmon git unzip distro-info net-tools sysbench lshw smartmontools ethtool pv sysstat iotop sipcalc # mc termshark
@@ -19,10 +19,6 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 wget -O ~/.tmux.conf https://raw.githubusercontent.com/RGMediatec/config/main/tmux/.tmux.conf
 # install plugins automatically
 ~/.tmux/plugins/tpm/bin/install_plugins
-
-# install sysadmin-utils
-
-git clone https://github.com/skx/sysadmin-util.git
 
 ####################
 # SSH CONFIG
