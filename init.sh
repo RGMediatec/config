@@ -17,6 +17,8 @@ mkdir -p ~/.tmux
 # get tmux plugin manager (tpm)
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 wget -O ~/.tmux.conf https://raw.githubusercontent.com/RGMediatec/config/main/tmux/.tmux.conf
+# install plugins automatically
+~/.tmux/plugins/tpm/bin/install_plugins
 
 # install sysadmin-utils
 
