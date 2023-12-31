@@ -19,6 +19,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 wget -O ~/.tmux.conf https://raw.githubusercontent.com/RGMediatec/config/main/tmux/.tmux.conf
 # install plugins automatically
 ~/.tmux/plugins/tpm/bin/install_plugins
+curl https://raw.githubusercontent.com/imomaliev/tmux-bash-completion/master/completions/tmux > ~/.bash_completion
+source ~/.bash_completion
 
 ####################
 # SSH CONFIG
