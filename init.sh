@@ -28,9 +28,9 @@ git clone https://github.com/skx/sysadmin-util.git
 
 mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys
 sed -i '$assh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIArKDvXiBMJ7QmccKV+p4CdCCsXlz2kXJ5P/XnKmEoa6 philipp@rgmediatec' ~/.ssh/authorized_keys
-sed -i 's/#PubkeyAuthentication yes/PubkeyAuthentication yes/g' /etc/ssh/sshd_config
-sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/sshd_config
-sed -i 's/#PermitRootLogin yes/PermitRootLogin prohibit-password/g' /etc/ssh/sshd_config
+sed -i 's/#\?\(PubkeyAuthentication\s*\).*$/\1 yes/' /etc/ssh/sshd_config
+sed -i 's/#\?\(PasswordAuthentication\s*\).*$/\1 no/' /etc/ssh/sshd_config
+sed -i 's/#\?\(PermitRootLogin\s*\).*$/\1 prohibit-password/' /etc/ssh/sshd_config
 
 systemctl restart sshd.service
 
