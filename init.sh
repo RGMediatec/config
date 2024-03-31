@@ -38,10 +38,10 @@ systemctl restart sshd.service
 # Aliases
 ####################
 
- wget -O ~/.bash_aliases https://raw.githubusercontent.com/RGMediatec/config/main/cfg/.bash_aliases
- source ~/.bash_aliases
+wget -O ~/.bash_aliases https://raw.githubusercontent.com/RGMediatec/config/main/cfg/.bash_aliases
+source ~/.bash_aliases
 
 
 
 
- echo "initial config done. please reboot for safety :)"
+echo "initial config done. please reboot for safety :)"
