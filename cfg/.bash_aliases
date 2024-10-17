@@ -60,3 +60,4 @@ alias tar='tar -czvf $1'
 ## Others
 
 alias df="df -Tha --total"
+alias clearHistory="cat /dev/null > ~/.bash_history && history -c"
