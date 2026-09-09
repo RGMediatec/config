@@ -1,4 +1,3 @@
-```bash
 #
 # ~/.bash_aliases
 #
@@ -971,4 +970,3 @@ clearHistory() {
             ;;
     esac
 }
-```
