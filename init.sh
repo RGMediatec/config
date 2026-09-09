@@ -1,4 +1,3 @@
-```bash
 #!/usr/bin/env bash
 #
 # Initial configuration for new Debian/Ubuntu installations
@@ -226,4 +225,3 @@ echo
 echo "    source ~/.bashrc"
 echo
 echo "A reboot is normally not required."
-```
